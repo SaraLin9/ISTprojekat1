@@ -23,6 +23,67 @@
     <Email tip="službeni">mperic@gmail.com</Email>
   </Osoba>
 
+  <Osoba sifra="O6247">
+    <PunoIme>
+      <Ime>Marko</Ime>
+      <SrednjeIme>Jovan</SrednjeIme>
+      <Prezime>Marković</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>18</Dan>
+      <Mesec>8</Mesec>
+      <Godina>1982</Godina>
+    </DatumRodjenja>
+    <Adresa tip="privremena">
+      <Ulica>Vitanovačka</Ulica>
+      <Broj>60</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon tip="fiksni">011/445-899</Telefon>
+    <Email tip="privatni">marko.aleksic@gmail.com</Email>
+    <Email tip="privatni">marko@gmail.com</Email>
+    <Email tip="službeni">aleksicm@gmail.com</Email>
+  </Osoba>
+
+  <Osoba sifra="O2854">
+    <PunoIme>
+      <Ime>Marija</Ime>
+      <Prezime>Novaković</Prezime>
+      <Prezime>Adamović</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>28</Dan>
+      <Mesec>11</Mesec>
+      <Godina>1988</Godina>
+    </DatumRodjenja>
+    <Adresa>
+      <Ulica>Kumodraška</Ulica>
+      <Broj>36</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon tip="mobilni">061/753-353</Telefon>
+    <Email tip="privatni">marija.novakovic@gmail.com</Email>
+  </Osoba>
+
+  <Osoba sifra="O2437">
+    <PunoIme>
+      <Ime>Ana</Ime>
+      <Prezime>Marić</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>19</Dan>
+      <Mesec>10</Mesec>
+      <Godina>1995</Godina>
+    </DatumRodjenja>
+    <Adresa tip="stalna">
+      <Ulica>Djevdjelijska</Ulica>
+      <Broj>50</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon tip="mobilni">066/743-381</Telefon>
+    <Email tip="privatni">anamaric@gmail.com</Email>
+  </Osoba>
+
   <Kompanija sifra="K8286">
     <Naziv>Imlek</Naziv>
     <Adresa tip="stalna">
