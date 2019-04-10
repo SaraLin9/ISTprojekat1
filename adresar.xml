@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "adresarDTD.dtd">
+
+<Adresar xmlns="http://viser.edu.rs/saranrt8816" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://viser.edu.rs/saranrt8816 adresarXMLShema.xsd">
+  <Osoba sifra="O8374">
+    <PunoIme>
+      <Ime>Milan</Ime>
+      <Prezime>Perić</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>10</Dan>
+      <Mesec>2</Mesec>
+      <Godina>1978</Godina>
+    </DatumRodjenja>
+    <Adresa tip="stalna">
+      <Ulica>Žitna</Ulica>
+      <Broj>25</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon tip="mobilni">064/643-862</Telefon>
+    <Email tip="privatni">milan.peric@gmail.com</Email>
+    <Email tip="službeni">mperic@gmail.com</Email>
+  </Osoba>
+
+  <Kompanija sifra="K8286">
+    <Naziv>Imlek</Naziv>
+    <Adresa tip="stalna">
+      <Ulica>Padinska skela</Ulica>
+      <Broj>11</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon tip="fiksni">011/305-505</Telefon>
+    <Email tip="službeni">info@imlek.com</Email>
+  </Kompanija>
+
+</Adresar>
