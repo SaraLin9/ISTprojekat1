@@ -96,4 +96,42 @@
     <Email tip="službeni">info@imlek.com</Email>
   </Kompanija>
 
+  <Kompanija sifra="K7627">
+    <Naziv>Nivea</Naziv>
+    <Adresa tip="stalna">
+      <Ulica>Kneza Mihaila</Ulica>
+      <Broj>9</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon tip="fiksni">011/490-922</Telefon>
+    <Email tip="službeni">info@nivea..com</Email>
+  </Kompanija>
+
+  <Kompanija sifra="K2735">
+    <Naziv>Nestle</Naziv>
+    <Adresa tip="stalna">
+      <Ulica>Bulevar Milutina Milankovića</Ulica>
+      <Broj>11a</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon tip="fiksni">011/201-300</Telefon>
+    <Email tip="službeni">info@nestle.com</Email>
+    <Email tip="službeni">info@nestle2.com</Email>
+    <Email tip="službeni">info@nestle3.com</Email>
+  </Kompanija>
+
+  <Kompanija sifra="K0395">
+    <Naziv>Knjaz Miloš</Naziv>
+    <Adresa tip="stalna">
+      <Ulica>Kumodraška</Ulica>
+      <Broj>255</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon tip="fiksni">011/635-900</Telefon>
+    <Email tip="službeni">info@knjazm.com</Email>
+    <Email tip="službeni">info@knjazm2.com</Email>
+    <Email tip="službeni">info@knjazm3.com</Email>
+    <Email tip="službeni">info@knjazm4.com</Email>
+  </Kompanija>
+
 </Adresar>
