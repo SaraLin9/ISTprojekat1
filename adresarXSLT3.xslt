@@ -27,9 +27,11 @@
             <xsl:value-of select="adr:PunoIme/adr:SrednjeIme"/>
           </SrednjeIme>
         </xsl:if>
-        <Prezime>
-          <xsl:value-of select="adr:PunoIme/adr:Prezime"/>
-        </Prezime>
+        <xsl:for-each select="adr:PunoIme/adr:Prezime">
+          <Prezime>
+            <xsl:value-of select="."/>
+          </Prezime>
+        </xsl:for-each>
       </PunoIme>
 
       <DatumRodjenja>
@@ -53,14 +55,15 @@
 
         <xsl:value-of select="adr:Telefon"/>
       </xsl:element>
+      <xsl:for-each select="adr:Email">
+        <xsl:element name="Email">
+          <xsl:attribute name="tip">
+            <xsl:value-of select="./@tip"/>
+          </xsl:attribute>
 
-      <xsl:element name="Email">
-        <xsl:attribute name="tip">
-          <xsl:value-of select="adr:Email/@tip"/>
-        </xsl:attribute>
-
-        <xsl:value-of select="adr:Email"/>
-      </xsl:element>
+          <xsl:value-of select="."/>
+        </xsl:element>
+      </xsl:for-each>
     </xsl:element>
 
 
@@ -87,13 +90,15 @@
         <xsl:value-of select="adr:Telefon"/>
       </xsl:element>
 
-      <xsl:element name="Email">
-        <xsl:attribute name="tip">
-          <xsl:value-of select="adr:Email/@tip"/>
-        </xsl:attribute>
+      <xsl:for-each select="adr:Email">
+        <xsl:element name="Email">
+          <xsl:attribute name="tip">
+            <xsl:value-of select="./@tip"/>
+          </xsl:attribute>
 
-        <xsl:value-of select="adr:Email"/>
-      </xsl:element>
+          <xsl:value-of select="."/>
+        </xsl:element>
+      </xsl:for-each>
     </xsl:element>
 
   </xsl:template>
