@@ -1,4 +1,4 @@
-﻿<!ELEMENT Adresar (Osoba+|Kompanija+)>
+﻿<!ELEMENT Adresar (Osoba+,Kompanija+)>
 
 <!ELEMENT Osoba (PunoIme,DatumRodjenja,Adresa,Telefon,Email+)>
 <!ATTLIST Osoba sifra ID #REQUIRED>
@@ -27,7 +27,7 @@
 <!ATTLIST Email tip (privatni|službeni) #REQUIRED>
 
 
-<!ELEMENT Kompanija (Naziv,Adresa,Telefon,Email)>
+<!ELEMENT Kompanija (Naziv,Adresa,Telefon,Email+)>
 <!ATTLIST Kompanija sifra ID #REQUIRED>
 
 <!ELEMENT Naziv (#PCDATA)>
