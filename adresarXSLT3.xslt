@@ -8,7 +8,7 @@
   <xsl:strip-space elements="*"/>
 
   <xsl:template match="/">
-    <Adresar xmlns="http://viser.edu.rs/saranrt8816" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://viser.edu.rs/saranrt8816 adresarXMLShema.xsd">
+    <Adresar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://viser.edu.rs/saranrt8816 adresarXMLShema.xsd">
       <xsl:apply-templates/>
     </Adresar>
   </xsl:template>
