@@ -1,4 +1,4 @@
-﻿<!ELEMENT Adresar (Osoba+,Kompanija+)>
+﻿<!ELEMENT Adresar (Osoba+,Kompanija+)+>
 
 <!ELEMENT Osoba (PunoIme,DatumRodjenja,Adresa,Telefon,Email+)>
 <!ATTLIST Osoba sifra ID #REQUIRED>
